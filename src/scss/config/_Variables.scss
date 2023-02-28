@@ -1,0 +1,58 @@
+////////////////////////////////
+//1- Patron de Colores
+////////////////////////////////
+$primary: #6770DD;
+$violet: #b642f5;
+$green: #31B0C4;
+$blue: #10142C;
+$dark: #040718;
+$vanilla: #D3B9AA;
+$orange: #fcab79;
+
+////////////////////////////////
+//2- Modificando Variables Bootstrap
+////////////////////////////////
+$enable-shadows: true;
+$enable-gradients: true;
+$btn-border-radius-sm: .6rem;
+$btn-border-radius-lg: 1rem;
+$btn-border-radius: 3rem;
+
+
+//$accordion-icon-color: white!important;
+//$accordion-icon-active-color: transparent;
+//$accordion-color: white!important;
+$accordion-button-bg:transparent;
+$accordion-button-active-bg:transparent;
+$accordion-button-color: white;
+$accordion-button-active-color:white;
+//$accordion-icon-color: white;
+//$accordion-icon-active-color: white;
+//$accordion-button-focus-border-color:transparent;
+////////////////////////////////
+//2- Fonts
+////////////////////////////////
+$font-title:  'Inter', sans-serif;
+$font-medium: 'Roboto Mono', monospace;
+
+
+////////////////////////////////
+//3- mixins generals
+////////////////////////////////
+/// 
+
+// ////////////////////////////////
+//3- class generals
+////////////////////////////////
+.text-green{
+    color: $green;
+}
+
+.text-vanilla{
+    color: $vanilla;
+}
+
+.text-orange{
+    color: $orange;
+}
+
