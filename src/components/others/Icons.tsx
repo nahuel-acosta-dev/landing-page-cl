@@ -1,4 +1,4 @@
-import { Button, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const Icons = () => {
 
@@ -9,25 +9,26 @@ const Icons = () => {
                     <Row className="flex-row social-icons">
                         <Col xs={3}>
                             <a className="btn btn-dark m-3 rounded-circle cont__icon" 
-                            href="https://www.youtube.com/@kexp" target="_blank">
+                            href="https://www.youtube.com/@kexp" target="_blank" rel="noreferrer">
                                 <i className="bi bi-youtube icon"></i>
                             </a>
                         </Col>
                         <Col xs={3}>
                             <a className="btn btn-dark m-3 rounded-circle cont__icon" 
-                            href="https://www.instagram.com/mapacheband/" target="_blank">
+                            href="https://www.instagram.com/mapacheband/" target="_blank" rel="noreferrer">
                                 <i className="bi bi-instagram icon"></i>
                             </a>
                         </Col>
                         <Col xs={3}>
                             <a className="btn btn-dark m-3 rounded-circle cont__icon" 
-                            href="https://twitter.com/mapache" target="_blank">
+                            href="https://twitter.com/mapache" target="_blank" rel="noreferrer">
                                 <i className="bi bi-twitter icon"></i>
                             </a>
                         </Col>
                         <Col xs={3}>
                             <a className="btn btn-dark m-3 
-                            rounded-pill cont__icon mt-3 me-sm-0 me-xs-2" href="https://mpago.la/2y6QJos" target="_blank">
+                            rounded-pill cont__icon mt-3 me-sm-0 me-xs-2" href="https://mpago.la/2y6QJos" 
+                            target="_blank" rel="noreferrer">
                                 <span>Ayudanos</span>
                             </a>
                         </Col>

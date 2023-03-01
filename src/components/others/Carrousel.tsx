@@ -1,7 +1,7 @@
 import Audience from '../../img/carrousel/audiencia.jpg'
 import Hand from '../../img/carrousel/hand.jpg'
 import Concert from '../../img/carrousel/concert.jpg'
-import { Button, Col, Row } from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
 import Icons from './Icons';
 
 const Carrousel = () => {

@@ -5,5 +5,15 @@
 /// Components
 ////////////////////////////////
 @import './scss/components/nav/Sidebar';
+@import './scss/components/nav/Navbar';
 @import './scss/components/others/Carousel';
 @import './scss/components/others/Icon';
+
+
+//config
+@import './scss/config/Responsive';
+
+
+.espaciado{
+    height: 40vh;
+}

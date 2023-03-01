@@ -10,3 +10,19 @@
     top: 3rem;
 }
 
+@mixin icon-responsive-md{
+    .cont__icon{
+        .icon{
+            font-size: 1rem;
+        }
+    }
+}
+  
+
+@mixin icon-responsive-sm{
+    .cont__icon{
+        .icon{
+            font-size: .8rem;
+        }
+    }
+}

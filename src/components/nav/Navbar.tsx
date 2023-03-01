@@ -7,13 +7,30 @@ const NavBar = () => {
 
     
     return(
-        <nav className="navbar navbar-dark bg-dark fixed-top">
+        <nav className="navbar navbar-dark bg-transparent fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={Buble} alt="Logo" 
             width="100" height="50" className="d-inline-block align-text-top"/>
-            </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          </a>
+          <ul className="nav justify-content-end nav-small">
+            <li className="nav-item">
+              <a className="nav-link text-decoration-none text-white" aria-current="page" href="#">HOME</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-decoration-none text-white" href="#">IGLESIA</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-decoration-none text-white" href="#">NOTICIAS</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-decoration-none text-white" href="#">GALERIA</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-decoration-none text-white" href="#">RADIO</a>
+            </li>
+          </ul>
+          <button className="navbar-toggler my-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="offcanvas offcanvas-end text-bg-dark" tabIndex={-1} 

@@ -5,10 +5,10 @@ import Youtube from "../img/Youtube.svg";
 const Home = () => {
    return (
         <Layout>
-            <div className="home_carousel text-center">
+            <div className="home_carousel text-center mb-5">
                 <Carrousel/>
     
-                <a className="fs-5 text-center carousel_text text-decoration-none fw-bold text-dark"
+                <a className="fs-5 text-center carousel_text text-decoration-none fw-bold text-dark bg-transparent"
                 href="https://www.youtube.com/live/kDnLsqON9yg?feature=share" target="_blank"
                 rel="noreferrer"
                 >
@@ -17,6 +17,7 @@ const Home = () => {
 
             </div>
             
+
         </Layout>
     )
 }
