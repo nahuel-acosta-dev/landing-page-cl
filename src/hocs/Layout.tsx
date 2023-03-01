@@ -1,4 +1,4 @@
-import { FC, ReactNode, useState } from "react";
+import { FC } from "react";
 import {Props} from '../types/generics';
 import Navbar from "../components/nav/Navbar";
 
@@ -6,11 +6,11 @@ const Layout: FC<Props> = (props) => {
   
     return (
         <>
+            
+            <main>
             <header>
                     <Navbar/>
             </header>
-            <main>
-                
                 {props.children}
             </main>
         </>

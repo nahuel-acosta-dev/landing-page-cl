@@ -5,6 +5,7 @@ import { store } from './app/store';
 import {BrowserRouter as Router} from 'react-router-dom';
 import App from './App';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.scss';
 import './index.css';
 import reportWebVitals from './reportWebVitals';

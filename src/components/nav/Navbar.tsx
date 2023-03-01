@@ -18,7 +18,7 @@ const NavBar = () => {
           </button>
           <div className="offcanvas offcanvas-end text-bg-dark" tabIndex={-1} 
           id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div className="offcanvas-header">
+            <div className="offcanvas-header justify-content-end">
               <button type="button" className="btn-close btn-close-white" 
               data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -30,5 +30,4 @@ const NavBar = () => {
       </nav>
     )
 }
-
 export default NavBar;

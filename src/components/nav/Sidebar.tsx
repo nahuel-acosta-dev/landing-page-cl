@@ -7,7 +7,8 @@ const Sidebar = () => {
     return(
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 list-unstyled ps-0">
             <li className="mb-1">
-                <button className="btn btn-toggle align-items-center rounded collapsed text-white text-white" 
+                <button className="btn btn-toggle align-items-center 
+                rounded collapsed text-white" 
                 data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                     NOSOTROS
                 </button>

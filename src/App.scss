@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import '~bootstrap/scss/bootstrap.scss';
-
-p{
-    color: red;
-}
+@import './scss/config/Basic';
+////////////////////////////////
+/// Components
+////////////////////////////////
+@import './scss/components/nav/Sidebar';
+@import './scss/components/others/Carousel';
+@import './scss/components/others/Icon';
