@@ -1,6 +1,7 @@
 import Carrousel from "../components/others/Carrousel";
 import Layout from "../hocs/Layout";
 import Youtube from "../img/Youtube.svg";
+import Meetings from "../sections/Meetings";
 
 const Home = () => {
    return (
@@ -14,10 +15,10 @@ const Home = () => {
                 >
                     <img src={Youtube} height="20px" alt="..."/>   Ver nuestro mensaje de bienvenida - Llegada    
                 </a>
-
+                
             </div>
             
-
+            <Meetings/>
         </Layout>
     )
 }

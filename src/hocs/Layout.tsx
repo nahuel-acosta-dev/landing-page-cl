@@ -8,9 +8,9 @@ const Layout: FC<Props> = (props) => {
         <>
             
             <main>
-            <header>
-                    <Navbar/>
-            </header>
+                <header>
+                        <Navbar/>
+                </header>
                 {props.children}
             </main>
         </>

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import '~bootstrap/scss/bootstrap.scss';
 @import './scss/config/Basic';
+
+
 ////////////////////////////////
 /// Components
 ////////////////////////////////
@@ -9,11 +11,14 @@
 @import './scss/components/others/Carousel';
 @import './scss/components/others/Icon';
 
+////////////////////////////////
+/// Sections
+////////////////////////////////
+@import './scss/sections/Meetings.scss';
 
-//config
+
+////////////////////////////////
+/// Config
+////////////////////////////////
 @import './scss/config/Responsive';
 
-
-.espaciado{
-    height: 40vh;
-}
