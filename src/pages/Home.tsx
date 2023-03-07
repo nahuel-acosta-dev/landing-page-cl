@@ -1,3 +1,4 @@
+import { Container } from "react-bootstrap";
 import Carrousel from "../components/others/Carrousel";
 import Layout from "../hocs/Layout";
 import Youtube from "../img/Youtube.svg";
@@ -18,8 +19,10 @@ const Home = () => {
                 </a>
                 
             </div>
+            <Container fluid>
+                <Details/>
+            </Container>
             
-            <Details/>
 
         </Layout>
     )

@@ -1,12 +1,20 @@
-.title-details{
-    font-size: 4.5rem;
+.details{
+    .title-details{
+        font-size: 4.5rem;
+    }
+
+    h3{
+        font-size: 3rem;
+        color: #212529;
+    }
+    
+    .text-details{
+        color: #212529;
+        font-size: 1.1rem;
+    }
+    
+    .details__video{
+       // background-image: url("../../img/carrousel/concert.jpg");
+    }
 }
 
-.text-details{
-    color: #212529;
-    font-size: 1.1rem;
-}
-
-.details__video{
-   // background-image: url("../../img/carrousel/concert.jpg");
-}

@@ -1,14 +1,16 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Audience from '../img/audience.jpg';
+import Man from '../img/retrat/man-3053774_640.png';
+import Portraits from "../components/others/Portraits";
+import { ActivityFour, ActivityOne, ActivityThree, ActivityTwo } from "../constants/portraits";
 
 const Details = () => {
 
 
     return(
-        <Container fluid>
-        <Row className="text-start justify-content-center">
-            <Col xs={1} sm={2} md={3}/>
-                <Col xs={10} sm={8} md={6}>
+        <Row className="text-start justify-content-center details">
+            <Col xs={1} md={2}/>
+                <Col xs={10} md={8}>
                     <h2 className="fw-bold title-details text-dark mb-5">
                         Congreso Internacional de Personas PROVINCIA 2023 
                         «Frase»
@@ -58,10 +60,17 @@ const Details = () => {
                         title="YouTube video" allowFullScreen></iframe>
                     </div>
 
+                    {/* Portrait */}
+                    <Portraits children={""} activity={1} portraits={ActivityOne}/>
+                    <Portraits children={""} activity={2} portraits={ActivityTwo}/>
+                    <Portraits children={""} activity={3} portraits={ActivityThree}/>
+                    <Portraits children={""} activity={4} portraits={ActivityFour}/>
+
+
                 </Col>
-            <Col xs={1} sm={2} md={3}/>
+                
+            <Col xs={1} md={2}/>
         </Row>
-        </Container>
     )
 }
 
