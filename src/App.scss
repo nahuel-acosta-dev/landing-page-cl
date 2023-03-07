@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&display=swap');
 @import '~bootstrap/scss/bootstrap.scss';
 @import './scss/config/Basic';
+
 
 
 ////////////////////////////////
@@ -15,6 +17,7 @@
 /// Sections
 ////////////////////////////////
 @import './scss/sections/Meetings.scss';
+@import './scss/sections/Details.scss';
 
 
 ////////////////////////////////

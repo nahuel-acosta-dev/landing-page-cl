@@ -5,6 +5,7 @@ import Estadio from '../img/estadio.svg';
 
 const Meetings = () => {
     return(
+        //SECTION AGGREGATED MEETING
         <>
             <Row className="meetings text-center justify-content-center">
                 <h2 className="fw-bold title-meetings">NUESTRAS REUNIONES</h2>
@@ -28,6 +29,10 @@ const Meetings = () => {
                                     Día 00:00 y 00:00hs.
                                     <br/>
                                 </p>
+                                <Button className='rounded-pill btn-meetings border border-2 text-dark' 
+                                variant="outline-light" size="lg">
+                                    Ver Más
+                                </Button>
                             </Col>
                             <Col>
                                 <img src={Estadio} alt="" height="85"/>
@@ -40,6 +45,10 @@ const Meetings = () => {
                                     Día 00:00 y 00:00hs.
                                     <br/>
                                 </p>
+                                <Button className='rounded-pill btn-meetings border border-2 text-dark' 
+                                variant="outline-light" size="lg">
+                                    Ver Más
+                                </Button>
                             </Col>
 
                         </Row>

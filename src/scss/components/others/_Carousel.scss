@@ -7,6 +7,11 @@ $size-home-carousel-md: 37rem;
 $size-carousel-img-sm: 28rem;
 $size-home-carousel-sm: 35rem;
 
+@mixin home-carousel-size{
+    width: 98.9vw;
+    max-width: 100vw;
+}
+
 body {
     //padding-top: 3rem;
     //padding-bottom: 3rem;
@@ -22,7 +27,7 @@ body {
     margin-bottom: 4rem;
   }
   .home_carousel{
-    width: 100vw;
+    @include home-carousel-size;
     height: 50rem;
     background-color: #e2e2e2;
     border-radius: 0px 0px 0px 5rem;
@@ -83,6 +88,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 6rem;
+    visibility: hidden;
   }
   
   /* MARKETING CONTENT
@@ -152,6 +158,7 @@ body {
   
     .home_carousel{
       height: $size-home-carousel-md;
+      @include home-carousel-size;
     }
 
   }
