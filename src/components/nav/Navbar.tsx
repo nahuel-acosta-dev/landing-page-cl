@@ -2,12 +2,38 @@ import {Container, Nav, Navbar} from "react-bootstrap";
 import { Link} from 'react-router-dom';
 import Buble from '../../img/Buble.svg';
 import Sidebar from "./Sidebar";
+import { useEffect, useState } from "react";
+import useScrollListener from "../../hooks/useScrollListener";
 
 const NavBar = () => {
 
+  const [navClassList, setNavClassList] = useState<Array<String>>([]);
+  const scroll = useScrollListener();
+
+  // update classList of nav on scroll
+  useEffect(() => {
+    const _classList: Array<String> = [];
+
+    if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
+      _classList.push("nav-bar--hidden");
+
+    setNavClassList(_classList);
+
+  }, [scroll.y, scroll.lastY]);
     
     return(
-        <nav className="navbar navbar-dark bg-transparent fixed-top">
+        <nav className={
+          scroll.y > 150 && scroll.y - scroll.lastY > 0 
+          ? 
+            "navbar navbar-dark bg-transparent fixed-top my-navbar nav-bar--hidden" 
+          : 
+          (scroll.y < 615 ?
+            "navbar navbar-dark bg-transparent fixed-top my-navbar"
+            :
+            "navbar navbar-dark bg-transparent fixed-top my-navbar nav-bar--hidden"
+            )
+        }
+          >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={Buble} alt="Logo" 

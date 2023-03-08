@@ -4,6 +4,11 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import {BrowserRouter as Router} from 'react-router-dom';
 import App from './App';
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+// Import Bootstrap
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.scss';

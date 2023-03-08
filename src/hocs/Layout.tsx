@@ -1,6 +1,7 @@
 import { FC } from "react";
 import {Props} from '../types/generics';
 import Navbar from "../components/nav/Navbar";
+import Footer from "../components/footer/Footer";
 
 const Layout: FC<Props> = (props) => {
   
@@ -12,6 +13,7 @@ const Layout: FC<Props> = (props) => {
                         <Navbar/>
                 </header>
                 {props.children}
+                <Footer/>
             </main>
         </>
     )
